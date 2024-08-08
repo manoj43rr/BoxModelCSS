@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Body Tag CSS</title>
+</head>
+<body>
+    <div class = "top-tab">
+        <img src = "dead.png" class = "logo">
+        <h1 class = "Hero-txt">CSS Box Model Properties</h1>
+    </div>
+    
+    <div class = "Entry-Ques">
+        <p class = "Question">What are Box Model Properties?</p>
+        <p class = "Answer">The CSS Box Model is a fundamental concept that describes the rectangular boxes generated for elements in the 
+            document tree and governs how elements are rendered on the page. Understanding the box model is crucial for effective layout 
+            design in CSS.</p>
+    </div>
+
+    <div class="property">
+        <h3 class="side-heading"><b>Margin</b></h3>
+        <p class="theory">
+            The margin property is used to define space outside the border of the elements that surround them. The margin has 4 properties:
+            left, right, top, and bottom. By providing the required value, we can space the elements that surround them.
+        </p>
+        <div class="imp">
+            <p>We can define the margin within one line by following the format below:<br>
+                <i>margin: top right bottom left;</i><br>
+                Alternatively, we can define each property separately as shown below:
+            </p>
+        </div>
+    
+        <div class="imp">
+            <p><i>
+                margin-top: xx;<br>
+                margin-right: xx;<br>
+                margin-left: xx;<br>
+                margin-bottom: xx;
+            </i></p>
+        </div>
+    </div>  
+    
+    <div class="property">
+        <h3 class="side-heading"><b>Padding</b></h3>
+        <p class = "theory">The padding property defines the space between the element's border and the content.
+            We can define the padding property within one line by following the below format</p>
+        
+        <div class = "imp">
+            <p>We can define the padding property within one line by following the below format:<br>
+                <i>padding : top, right, bottom, left; </i><br>
+                Alternatively, we can define each property separately as shown below:
+            </p>
+        </div>
+
+        <div class = "imp">
+            <p><i>
+                padding-top: xx;
+                <br>padding-right: xx;
+                <br>padding-left: xx;
+                <br>padding-bottom: xx;
+            </i></p>
+        </div>
+    </div>
+
+    <div class="property">
+        <h3 class="side-heading"><b>Border</b></h3>
+        <p class="theory">The border property defines the border around the padding and content.</p>
+
+        <div class="imp">
+            <p>We can define the border property within one line by following the below format: <br>
+                <i>border : top, right, bottom, left; </i><br>
+                Alternatively, we can define each property separately as shown below:
+            </p>
+        </div>
+
+        <div class = "imp">
+            <p><i>
+                border-top: xx;
+                <br>border-right: xx;
+                <br>border-left: xx;
+                <br>border-bottom: xx;
+            </i></p>
+        </div>
+
+        <div class = "imp">
+            <p>The border has one more property - "Border-radius"<br>
+            The border radius property makes the border of the element in the form of round or smooth corners.<br>
+            It is achieved by the following command :<br>
+            <i>Border-radius : xx;</i></p>
+        </div>
+    </div>
+
+
+    <div class="property">
+        <h3 class="side-heading"><b>Width & Height</b></h3>
+        <p class = "theory-sh">The width & Height property defines the width & height of the element.</p>
+        <p class = "imp">It is done as below<br>
+        <i> 
+            width: xx;
+            <br>Height: xx;
+        </i></p>
+    </div>
+
+    <div class="property">
+        <h3 class="side-heading"><b>Box-Shadow</b></h3>
+        <p class="theory">This property is used to provide a 3D effect for the element. This property omits a shadow of the element behind, the position of the 
+            shadow can be adjusted by two values horizontal-offset and vertical-offset. We also have two other values one for blurring the shadow
+            and the other to provide the color for shadow.</p>
+        
+            <div class="imp">
+                <p>We can define the Box-shadow property within one line by following the below format:<br>
+                <i>box-shadow : horizontal-offset, vertical-offset, blur, desired-color; </i></p>
+            </div>
+    </div>
+
+    <div class ="property">
+        <h3 class = "side-heading"><b>Box-sizing</b></h3>
+        <p class = "theory">This property Determines whether padding and border are included in the element's total width and height. It has two values content-box
+            and border-box where the content-box is default.</p>
+        
+        <div class = "imp">
+            <p>
+                Using the default value, When a box is of size 200x100 then adding properties like border and padding to the box it adds them keeping 
+                the box size 200x100 as same. But when using the border-box value, the padding and border properties are alloted using the size of the
+                box.
+            </p>
+        </div>    
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(139,35,35);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.top-tab{
+    background-color: rgb(219,219,219);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid rgb(35,34,39);
+    border-radius: 16px;
+    align-items: center;
+}
+
+.logo{
+    width : 150px;
+    border-radius: 16px;
+    display: flex;
+    border: 2px groove rgb(35,34,39);
+}
+
+.Hero-txt{
+    color: rgb(35,34,39);
+    width: auto;
+    height: 60px;
+    font-size : 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.Entry-Ques{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35,34,39);
+    align-content: center;
+    justify-content: center;
+    row-gap: 5px;
+    border-radius: 12px;
+}
+
+.Question{
+    display: flex;
+    color: rgb(219,219,219);
+    width: auto;
+    height: 40px;
+    font-size: 25px;
+    font-weight:900;
+    padding: 10px;
+    align-items: center;
+    margin: 0px;
+}
+
+.Answer{
+    display: flex;
+    color: rgb(219,219,219);
+    width: auto;
+    height: 60px;
+    font-size: 18px;
+    padding: 10px;
+    align-items: center;
+    margin: 0px;
+}
+.property {
+    margin: 10px;
+    background-color: rgb(35, 34, 39);
+    padding: 5px 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;  /* Center align horizontally */
+}
+
+.side-heading {
+    color: rgb(219, 219, 219);
+    margin: 0;
+    padding: 5px;
+    min-height: 45px;
+    font-size: 25px;
+    text-align: justify;  /* Center the heading */
+}
+
+.theory {
+    color: rgb(219, 219, 219);
+    padding: 5px 15px;
+    min-height: 60px;
+    font-size: 17px;
+    line-height: 1.5;  /* Improved readability */
+    text-align: justify;
+}
+
+.imp {
+    color: rgb(219, 219, 219);
+    padding: 5px 15px;
+    min-height: 40px;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.theory-sh {
+    color: rgb(219, 219, 219);
+    padding: 5px 15px;
+    min-height: 30px;
+    font-size: 17px;
+    line-height: 1.5;  /* Improved readability */
+    text-align: justify;
+}
