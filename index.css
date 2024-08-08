@@ -25,6 +25,13 @@ body{
     border: 2px groove rgb(35,34,39);
 }
 
+.logo1{
+    height : 120px;
+    border-radius: 16px;
+    display: flex;
+    border: 2px groove rgb(35,34,39);
+}
+
 .Hero-txt{
     color: rgb(35,34,39);
     width: auto;
@@ -46,6 +53,7 @@ body{
     justify-content: center;
     row-gap: 5px;
     border-radius: 12px;
+    border: 2px groove rgb(219,219,219);
 }
 
 .Question{
@@ -76,7 +84,9 @@ body{
     padding: 5px 150px;
     display: flex;
     flex-direction: column;
-    border-radius: 12px;  /* Center align horizontally */
+    border-radius: 12px;
+    border: 2px groove rgb(219,219,219);
+    /* Center align horizontally */
 }
 
 .side-heading {
