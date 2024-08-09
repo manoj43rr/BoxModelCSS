@@ -7,120 +7,106 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
 .top-tab{
     background-color: rgb(219,219,219);
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
     border: 5px solid rgb(35,34,39);
     border-radius: 16px;
-    align-items: center;
+    display: flex;
+    width: 100%;
+    column-gap: 2rem;
 }
 
 .logo{
-    width : 150px;
-    border-radius: 16px;
     display: flex;
-    border: 2px groove rgb(35,34,39);
-}
+    max-width: 100%;
+    margin: 0.5rem;
 
-.logo1{
-    height : 120px;
-    border-radius: 16px;
-    display: flex;
-    border: 2px groove rgb(35,34,39);
 }
 
 .Hero-txt{
     color: rgb(35,34,39);
-    width: auto;
-    height: 60px;
-    font-size : 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
     text-decoration: underline;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0.3rem;
 }
 
 .Entry-Ques{
-    margin: 10px;
-    padding: 10px;
+    background-color: rgb(35,34,39);
+    border: 2px groove rgb(219,219,219);
+    border-radius: 6px;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
-    background-color: rgb(35,34,39);
-    align-content: center;
     justify-content: center;
-    row-gap: 5px;
-    border-radius: 12px;
-    border: 2px groove rgb(219,219,219);
 }
 
 .Question{
-    display: flex;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
     color: rgb(219,219,219);
-    width: auto;
-    height: 40px;
-    font-size: 25px;
-    font-weight:900;
-    padding: 10px;
-    align-items: center;
-    margin: 0px;
+    font-weight: bolder;
 }
 
 .Answer{
-    display: flex;
+    margin: 0.4rem;
     color: rgb(219,219,219);
-    width: auto;
-    height: 60px;
-    font-size: 18px;
-    padding: 10px;
-    align-items: center;
-    margin: 0px;
+    font-size: 1rem;
+    font-weight:100;
+    text-align: justify;
+    font-size:small;
 }
-.property {
-    margin: 10px;
+
+.property{
+    margin:0.5rem;
     background-color: rgb(35, 34, 39);
-    padding: 5px 150px;
+    border: 2px groove rgb(219,219,219);
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    border-radius: 12px;
-    border: 2px groove rgb(219,219,219);
-    /* Center align horizontally */
 }
 
-.side-heading {
+.side-heading{
+    margin: 0.4rem;
     color: rgb(219, 219, 219);
-    margin: 0;
-    padding: 5px;
-    min-height: 45px;
-    font-size: 25px;
-    text-align: justify;  /* Center the heading */
 }
 
-.theory {
+.theory{
+    margin: 0.2rem 0.4rem 0.2rem 0.4rem;
     color: rgb(219, 219, 219);
-    padding: 5px 15px;
-    min-height: 60px;
-    font-size: 17px;
-    line-height: 1.5;  /* Improved readability */
     text-align: justify;
+    font-size: small;
+
 }
 
-.imp {
+.imp{
+    margin: 0.2rem 0.4rem 0.2rem 0.4rem;
     color: rgb(219, 219, 219);
-    padding: 5px 15px;
-    min-height: 40px;
-    font-size: 17px;
-    line-height: 1.5;
-    text-align: justify;
+    font-size: small;
+
 }
 
-.theory-sh {
-    color: rgb(219, 219, 219);
-    padding: 5px 15px;
-    min-height: 30px;
-    font-size: 17px;
-    line-height: 1.5;  /* Improved readability */
-    text-align: justify;
+@media only screen and (max-width: 435px) {
+    img{
+        width: 6rem;
+        height: auto;
+    }
+
+    h1{
+        font-size:x-large;
+    }
+  }
+
+@media only screen and (max-width: 345px) {
+img{
+    width: 6rem;
+    height: auto;
 }
+
+h1{
+    font-size:large;
+}
+}
+
